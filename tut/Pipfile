@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+rich = "*"
+opentelemetry-api = "*"
+opentelemetry-sdk = "*"
+colorama = "*"
+structlog = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
